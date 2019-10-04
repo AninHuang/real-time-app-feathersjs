@@ -1,0 +1,17 @@
+{
+  "name": "real-time-app-with-feathersjs",
+  "version": "1.0.0",
+  "description": "An application using Feathers.js, Socket.io & Express that will allow livestream viewers to suggest project ideas to the streamer in real time.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@feathersjs/express": "^4.3.4",
+    "@feathersjs/feathers": "^4.3.4",
+    "@feathersjs/socketio": "^4.3.4",
+    "moment": "^2.24.0"
+  }
+}
