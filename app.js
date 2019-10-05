@@ -30,7 +30,7 @@ class IdeaService {
 
 // integrate feathers with Express
 const app = express(feathers());
-// parse json
+// middleware - parse json
 app.use(express.json());
 // config Socket.io realtime APIs
 app.configure(socketio()) ;
