@@ -15,6 +15,8 @@ npm start
 # Open index.html
 ```
 
+## Set up the project
+
 ```bash
 npm init -y
 
