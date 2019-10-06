@@ -14,7 +14,7 @@ class IdeaService {
   }
 
   async create(data) {
-    const idea = {
+    const newIdea = {
       id: this.ideas.length,
       text: data.text,
       tech: data.tech,
@@ -22,7 +22,7 @@ class IdeaService {
       time: moment().format('h:mm:ss a')
     }
 
-    this.ideas.push(idea);
+    this.ideas.push(newIdea);
 
     return idea;
   }
